@@ -1,0 +1,32 @@
+body
+{
+background-color: yellow;
+}
+h1
+{
+    color: purple;
+    background-color: cyan;
+}
+#showSketch
+{
+    float: right;
+}
+p
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
+canvas
+{
+    border: 10px solid white;
+    border-radius: 25px;
+    animation-name: Rishaan;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    margin-top: 40px;
+}
+@keyframes Rishaan
+{
+    from{box-shadow: 2px 2px 25px grey ;}
+    to{box-shadow: 2px 2px 25px cyan;}
+}
